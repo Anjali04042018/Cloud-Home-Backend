@@ -1,9 +1,10 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "main.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node main.js"
+    "start": "node main.js",
+    "dev": "nodemon main.js"
   },
   "author": "",
   "license": "ISC",
